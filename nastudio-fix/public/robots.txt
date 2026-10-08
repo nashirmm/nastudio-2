@@ -1,0 +1,5 @@
+# robots.txt for NA Studio
+User-agent: *
+Allow: /
+
+Sitemap: https://nastudio.odoo.com/sitemap.xml
