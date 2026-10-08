@@ -6,6 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     ignoreDeadLinks: true,
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
